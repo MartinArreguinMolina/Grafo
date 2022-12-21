@@ -32,6 +32,6 @@ public class Nodo {
     }
     
     public String toString(){
-        return "Ciudad \n" + getCiudad() + ", Arista \n" + getLista();
+        return "Ciudad \n" + getCiudad() + ", \nArista " + getLista();
     }
 }
